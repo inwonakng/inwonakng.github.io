@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.90d7ab1c.css",
-    "main.js": "/static/js/main.3dac96ef.js",
+    "main.js": "/static/js/main.a1efc1d7.js",
     "static/js/787.740b3c97.chunk.js": "/static/js/787.740b3c97.chunk.js",
     "static/media/hawaii.jpg": "/static/media/hawaii.5adaa7f3844e233b150a.jpg",
     "index.html": "/index.html",
     "main.90d7ab1c.css.map": "/static/css/main.90d7ab1c.css.map",
-    "main.3dac96ef.js.map": "/static/js/main.3dac96ef.js.map",
+    "main.a1efc1d7.js.map": "/static/js/main.a1efc1d7.js.map",
     "787.740b3c97.chunk.js.map": "/static/js/787.740b3c97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90d7ab1c.css",
-    "static/js/main.3dac96ef.js"
+    "static/js/main.a1efc1d7.js"
   ]
 }
