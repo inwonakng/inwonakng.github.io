@@ -25,7 +25,7 @@ const Home = () =>
                 During this time, I also dabbled in NLP and built an enhanced pipeline of existing state-of-art model for <em>Preference Ellicitation</em> task using GNNs and coreference parsers.
                 <br/>
                 <br/>
-                My PhD focus is on blockchains and integration of machine learning with blockchains.
+                My PhD focus will most likely be on blockchains and integration of machine learning with blockchains.
                 <br/>
                 <br/>
                 I like collecting datasets, one day one of them will be useful.
