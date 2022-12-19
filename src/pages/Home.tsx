@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col'
 import headshot from '../hawaii.jpg'
 
 const Home = () => 
-
 <>
     <Row>
         <Col xs={3}>
@@ -33,9 +32,7 @@ const Home = () =>
                 <br/>
                 I like collecting datasets, one day one of them will be useful.
                 </Col>
-            </Row>
-            <Row className='mt-5'>
-                <Col xs={12}>
+                <Col xs={12} className='mt-5'>
                     <h5>Education</h5>
                 </Col>
                 <Col xs={12}>
@@ -54,10 +51,6 @@ const Home = () =>
             </Row>
         </Col>
     </Row>
-    
-        
-    {/* </Row> */}
 </>
-
 
 export default Home

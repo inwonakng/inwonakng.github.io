@@ -23,8 +23,5 @@ const routes = [
         component: Projects,
     }
 ]
-    
-
-// export { Route }
 
 export default routes

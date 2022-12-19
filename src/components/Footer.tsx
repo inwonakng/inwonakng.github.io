@@ -1,10 +1,8 @@
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import Nav from 'react-bootstrap/Nav';
 
 import { FiGithub } from 'react-icons/fi'
 import { GrLinkedin } from 'react-icons/gr'
-
 
 const linkWithIcon = [
     {
@@ -13,10 +11,8 @@ const linkWithIcon = [
     },{
         link:'https://www.linkedin.com/in/inwon-kang/',
         icon: GrLinkedin
-    },
-
+    }
 ]
-
 
 const Footer = () => 
 <div className="footer">

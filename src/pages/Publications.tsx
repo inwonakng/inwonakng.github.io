@@ -1,6 +1,3 @@
-import { Table } from "react-bootstrap"
-
-
 const Publications = () =>
     <div className='publications'>
         <h3>Publications</h3>
@@ -34,6 +31,5 @@ const Publications = () =>
 
         </ul>
     </div>
-
 
 export default Publications
