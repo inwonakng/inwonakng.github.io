@@ -3,6 +3,8 @@ import { Table } from "react-bootstrap"
 
 const Publications = () =>
     <div className='publications'>
+        <h3>Publications</h3>
+        <br/>
         <ul>
             <li>
                 Inwon Kang, Aparna Gupta, Oshani Seneviratne.

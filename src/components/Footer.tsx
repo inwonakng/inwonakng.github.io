@@ -24,8 +24,8 @@ const Footer = () =>
         <Nav>
         {linkWithIcon.map( item => 
             <Nav.Item className='mx-auto'>
-                <Nav.Link href={item.link} target='_blank'>
-                    {<item.icon/>}
+                <Nav.Link href={item.link} target='_blank' rel="noreferrer">
+                    {<item.icon size={28}/>}
                 </Nav.Link>
             </Nav.Item>
         )}
