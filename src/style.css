@@ -1,0 +1,24 @@
+.menubar{
+    height:10vh;
+}
+
+.main-body {
+    margin: 3vh 20vw;
+    margin-bottom:0vh;
+    min-height:77vh;
+}
+
+
+.footer {
+
+    /* position:fixed; */
+    /* bottom:0; */
+    /* margin: 0vh 10vh; */
+    /* width:80vw; */
+    padding: 0vh 5vw;
+    height:10vh;
+}
+
+li{
+    font-size:large;
+}
