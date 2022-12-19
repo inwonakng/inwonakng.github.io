@@ -2,6 +2,19 @@ const Projects = () =>
 <div className='projects'>
     <h3>Projects</h3>
     <br/>
+
+
+    <ul>
+        <li>
+        <h5>Clean My Web (WIP)</h5>  
+    Class project for AI and Blockchain. Developed a chrome extension that can inserts html into google search results and filters "spam" results.
+    Uses blockchain (currently Goerli testnet) to store user labeled data to update the shared model. 
+        <br/>
+        <a href='https://github.com/AI-and-Blockchain/F22_Web_Spam_Cleanup' target='_blank' rel="noreferrer">
+            Github Link 
+        </a>
+        </li>
+    </ul>
     <ul>
         <li>
         <h5>Understanding Perception of Gerrymandering</h5>  

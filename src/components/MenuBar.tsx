@@ -12,15 +12,14 @@ type MenuBarProps = {
 
 const Logo = () => {
     const [isHover,setHover] = useState(false)
-
-    
     return(
-        <img 
-            src={isHover ? shinChanGif : shinChanStatic} 
-            style={{height:'5vh'}}
-            onMouseEnter={() => setHover(!isHover)}
-            onMouseLeave={() => setHover(!isHover)}
-        />
+    <img 
+        className="logo"
+        src={isHover ? shinChanGif : shinChanStatic} 
+        // style={{height:'100%'}}
+        onMouseEnter={() => setHover(!isHover)}
+        onMouseLeave={() => setHover(!isHover)}
+    />
     )
 }
 
@@ -29,7 +28,7 @@ const Logo = () => {
 const MenuBar = ({routes}:MenuBarProps) => {
     return(
     <div className='menubar'>
-        <Navbar bg="light" expand="lg">
+        <Navbar expand="lg" style={{height:'100%'}}>
             <Container fluid>
                 <Navbar.Brand href="#/home"><Logo/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -37,27 +36,15 @@ const MenuBar = ({routes}:MenuBarProps) => {
                     <Nav className="me-auto">
                     {
                         routes.map((prop,key) => 
-                        <Nav.Link href={'#'+prop.path} key={key}>{prop.name}</Nav.Link>
+                        <Nav.Link href={'#'+prop.path} key={key} style={{fontSize:'20px'}}>{prop.name}</Nav.Link>
                         )
                     }
-                    {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">
-                        Another action
-                        </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">
-                        Separated link
-                        </NavDropdown.Item>
-                    </NavDropdown> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar> 
     </div>
     )
-
 }
 
 
