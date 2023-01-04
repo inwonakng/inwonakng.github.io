@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd50db5e.css",
-    "main.js": "/static/js/main.74637735.js",
+    "main.css": "/static/css/main.3e124bc3.css",
+    "main.js": "/static/js/main.5b050caa.js",
     "static/js/787.740b3c97.chunk.js": "/static/js/787.740b3c97.chunk.js",
     "static/media/hawaii.jpg": "/static/media/hawaii.5adaa7f3844e233b150a.jpg",
     "static/media/shinchan.gif": "/static/media/shinchan.01911543c731cb2b92cb.gif",
     "static/media/shinchan.png": "/static/media/shinchan.1a8c0d02f7a42b34719e.png",
     "index.html": "/index.html",
-    "main.dd50db5e.css.map": "/static/css/main.dd50db5e.css.map",
-    "main.74637735.js.map": "/static/js/main.74637735.js.map",
+    "main.3e124bc3.css.map": "/static/css/main.3e124bc3.css.map",
+    "main.5b050caa.js.map": "/static/js/main.5b050caa.js.map",
     "787.740b3c97.chunk.js.map": "/static/js/787.740b3c97.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd50db5e.css",
-    "static/js/main.74637735.js"
+    "static/css/main.3e124bc3.css",
+    "static/js/main.5b050caa.js"
   ]
 }
