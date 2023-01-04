@@ -27,12 +27,14 @@ const Logo = () => {
 
 const MenuBar = ({routes}:MenuBarProps) => {
     return(
-    <div className='menubar'>
-        <Navbar expand="lg" style={{height:'100%'}}>
+    // <div >
+        <Navbar className='menubar'>
             <Container fluid>
-                <Navbar.Brand href="#/home"><Logo/></Navbar.Brand>
+            <Navbar.Brand><Logo/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse id="basic-navbar-nav"
+                    style={{right:'none'}}
+                >
                     <Nav className="me-auto">
                     {
                         routes.map((prop,key) => 
@@ -43,7 +45,7 @@ const MenuBar = ({routes}:MenuBarProps) => {
                 </Navbar.Collapse>
             </Container>
         </Navbar> 
-    </div>
+    // </div>
     )
 }
 

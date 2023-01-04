@@ -4,6 +4,8 @@ import Col from 'react-bootstrap/Col'
 import headshot from '../hawaii.jpg'
 import { useState } from 'react'
 
+const mobileWidth = 800
+
 const Home = () => {
 
     const [width, setWidth] = useState<number>(window.innerWidth);
@@ -12,14 +14,14 @@ const Home = () => {
     <>
         <Row>
         {
-            width < 1000 ? null
+            width < mobileWidth ? null
             :<Col xs={3}>
-                <img src={headshot} style={{width:'100%'}}/>
+                <img className="profile-pic" src={headshot} style={{width:'100%'}}/>
             </Col>
         }
-            <Col xs={width < 1000 ? 12: 9}>
+            <Col xs={width < mobileWidth ? 12: 9}>
             {
-                width < 1000
+                width < mobileWidth
                 ?<Row className='mb-3'>
                     <img src={headshot} style={{width:'100%'}}/>
                 </Row>: null
@@ -32,7 +34,7 @@ const Home = () => {
                 </Row>
                 <Row>
                     <Col>
-                    I am a current PhD student at Rensselaer Polytechnic Institute.
+                    I am a current Ph.D student at Rensselaer Polytechnic Institute.
                     I work mostly with Python for data/analysis oriented projects. I am also familiar with web frameworks in javascript and python for buliding quick web pages.
                     <br/>
                     <br/>

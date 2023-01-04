@@ -31,6 +31,7 @@ const MainPage = () => {
                     <Redirect from="*" to="home" />
                 </Switch>
                 </div>
+                {/* <hr/> */}
             </Container>
             <Footer/>
         </>
